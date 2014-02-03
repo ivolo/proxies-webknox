@@ -1,0 +1,19 @@
+{
+  "name": "proxies-webknox",
+  "version": "1.0.0",
+  "repository": "git://github.com/ivolo/proxies-webknox.git",
+  "description": "A proxies scraper for webknox.com",
+  "keywords": [
+    "public",
+    "proxies",
+    "source",
+    "webknox"
+  ],
+  "dependencies": {
+    "defaults": "~1.0.0",
+    "superagent": "~0.16.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
