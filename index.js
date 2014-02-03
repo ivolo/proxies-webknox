@@ -32,7 +32,7 @@ function scrape (apiKey, options) {
       .end(function (err, res) {
         if (err) return callback(err);
         var proxies = res.body.map(function (item) {
-          return item.proxy;
+          return 'http://' + item.proxy;
         });
         callback(null, proxies);
       });
